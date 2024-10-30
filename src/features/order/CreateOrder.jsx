@@ -97,7 +97,7 @@ function CreateOrder() {
               </p>
             )}
           </div>
-          {position.length === 0 && (
+          {!(position.length === 0) && (
             <span className="absolute right-[5px] top-[3px] md:right-[5px] md:top-[5px]">
               <Button
                 type="small"
